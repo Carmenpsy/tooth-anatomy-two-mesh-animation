@@ -1,0 +1,24 @@
+# Original downloaded source is not redistributed.
+assets/
+
+# Blender recovery files.
+*.blend1
+*.blend2
+
+# Python cache.
+__pycache__/
+*.pyc
+
+# Keep only the finalized deliverables and reports in outputs.
+outputs/*
+!outputs/tooth_gum_realistic_two_mesh_animation.blend
+!outputs/tooth_gum_realistic_two_mesh_animation.glb
+!outputs/tooth_gum_realistic_assembled.png
+!outputs/tooth_gum_realistic_detached.png
+!outputs/tooth_gum_realistic_report.json
+!outputs/tooth_gum_realistic_validation.json
+
+# Keep only the reproducible final scripts in work.
+work/*
+!work/build_realistic_two_mesh.py
+!work/verify_realistic_two_mesh.py
