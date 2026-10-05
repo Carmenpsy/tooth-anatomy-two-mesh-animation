@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "blend": {
+    "mesh_object_count": 2,
+    "mesh_names": [
+      "Gum",
+      "Teeth"
+    ],
+    "independent_mesh_datablocks": true,
+    "frame_1_translation": {
+      "Teeth": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Gum": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "frame_60_translation": {
+      "Teeth": [
+        0.0,
+        0.0,
+        0.105
+      ],
+      "Gum": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "detached_vertical_clearance_meters": 0.011931,
+    "faces": {
+      "Teeth": 80639,
+      "Gum": 30124
+    }
+  },
+  "glb": {
+    "mesh_object_count": 2,
+    "mesh_names": [
+      "Gum",
+      "Teeth"
+    ],
+    "action_count": 1,
+    "animated_objects": [
+      "Teeth_Detach_Control"
+    ]
+  }
+}

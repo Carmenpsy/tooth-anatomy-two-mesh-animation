@@ -1,0 +1,29 @@
+{
+  "source_asset": "Aholo Lux3D Tooth Anatomy Model",
+  "source_asset_id": 7313,
+  "mesh_object_count": 2,
+  "mesh_objects": [
+    {
+      "name": "Teeth",
+      "faces": 80391,
+      "animated": true,
+      "construction": "original detailed crown with clean anatomical roots"
+    },
+    {
+      "name": "Gum",
+      "faces": 30119,
+      "animated": false,
+      "construction": "original textured gum/bone exterior with recessed gum backing"
+    }
+  ],
+  "duration_seconds": 3.0,
+  "frame_range": [
+    1,
+    72
+  ],
+  "frames_per_second": 24,
+  "blend_file": "outputs/tooth_gum_realistic_two_mesh_animation.blend",
+  "animated_glb_file": "outputs/tooth_gum_realistic_two_mesh_animation.glb",
+  "assembled_preview": "outputs/tooth_gum_realistic_assembled.png",
+  "detached_preview": "outputs/tooth_gum_realistic_detached.png"
+}
